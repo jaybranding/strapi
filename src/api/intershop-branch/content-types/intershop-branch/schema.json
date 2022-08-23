@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "intershop_branches",
+  "info": {
+    "singularName": "intershop-branch",
+    "pluralName": "intershop-branches",
+    "displayName": "IntershopBranch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "LocationSub": {
+      "type": "string"
+    }
+  }
+}
